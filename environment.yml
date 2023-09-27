@@ -1,0 +1,15 @@
+name: denbi_summerschool2023_exercises
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - setuptools
+  # here we install the software `pip` the Python package manager
+  - pip
+  # this calls pip to install the necessary Python packages
+  # it basically searches in the current directory for one of the supported requriements files
+  # we use the some what new pyproject.toml file
+  - pip:
+    - -e ./

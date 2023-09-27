@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "cubimed_rub_python_course"
+version = "0.0.1"
+authors = [
+    {name = "CUBiMed.RUB", email = "cubimed@ruhr-uni-bochum.de"},
+    {name = "Maike Weber", email = "maike.weber@rub.de"},
+    {name = "Dirk Winkelhardt", email = "dirk.winkelhardt@rub.de"}
+]
+description = "Python course offered by CUBiMed.RUB"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["python", "course", "CUBiMed.RUB"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    "pandas",
+    "plotly",
+    "scipy",
+    "sweetviz"
+]
+
